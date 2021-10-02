@@ -1,5 +1,5 @@
 package com.bridgelabz;
-public class Contact {
+ class Contact {
     private String firstName;
     private String lastName;
     private String address;
@@ -83,6 +83,8 @@ public class Contact {
     public void setPhoneNumber(Long phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
-
+    public void display() {
+        System.out.println(" FIRST NAME: " + getFirstName() + " LAST NAME: " + getLastName() + " ADDRESS: " + getAddress() + " CITY " + getCity()
+                + " STATE:" + getState() + " EMAIL ID:" + getEmail() + " ZIP CODE:" + getZipCode() + " PHONE NUMBER:" + getPhoneNumber());
+    }
 }
-
