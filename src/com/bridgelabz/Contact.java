@@ -89,10 +89,12 @@ import java.util.Scanner;
      public void setPhoneNumber(Long phoneNumber) {
          this.phoneNumber = phoneNumber;
      }
+     //Display method for display the contact
      public void display() {
          System.out.println(" FIRST NAME: " + getFirstName() + " LAST NAME: " + getLastName() + " ADDRESS: " + getAddress() + " CITY " + getCity()
                  + " STATE:" + getState() + " EMAIL ID:" + getEmail() + " ZIP CODE:" + getZipCode() + " PHONE NUMBER:" + getPhoneNumber());
      }
+     //Edit the contact
      public void editDetails() {
 
          System.out.println(" SELECT THE OPTION YOU WANT TO EDIT : ");
@@ -143,7 +145,7 @@ import java.util.Scanner;
                  Long phoneNumber = sc.nextLong();
                  setPhoneNumber(phoneNumber);
                  break;
-
+             //Delete the contact
              case 'I':
                  setFirstName(null);
                  setLastName(null);
