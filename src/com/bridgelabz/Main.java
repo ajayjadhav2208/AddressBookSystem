@@ -29,6 +29,9 @@ public class Main {
 
         Contact person = new Contact(firstName, lastName, address, city, state, email, zipcode, phoneNumber);
         person.display();
+
+        person.editDetails();
+        person.display();
     }
 }
 
