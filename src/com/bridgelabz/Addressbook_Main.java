@@ -1,7 +1,6 @@
 package com.bridgelabz;
 
 import java.util.*;
-
 import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Scanner;

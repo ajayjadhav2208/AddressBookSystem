@@ -1,5 +1,5 @@
 package com.bridgelabz;
-class ContactInfo {
+public class ContactInfo {
     private String firstName;
     private String lastName;
     private String address;
@@ -8,6 +8,18 @@ class ContactInfo {
     private int zip;
     private long phoneNo;
     private String email;
+
+    public ContactInfo(String firstName, String lastName, String address,
+                       String city, String state, int zip, long phoneNo, String email) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.address = address;
+        this.city = city;
+        this.state = state;
+        this.zip = zip;
+        this.phoneNo = phoneNo;
+        this.email = email;
+    }
 
     public String getFirstName() {
         return firstName;
@@ -84,6 +96,6 @@ class ContactInfo {
                 ", zip=" + zip +
                 ", phoneNo=" + phoneNo +
                 ", email='" + email + '\'' +
-                '}' + "\n";
+                '}' + "\n" ;
     }
 }
